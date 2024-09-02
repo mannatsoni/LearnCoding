@@ -16,10 +16,8 @@ arr = [5,8,3,2,1,9]
 def LargestElement_BF(arr):
     arr = sorted(arr)
     return arr[-1]
+print(LargestElement_BF(arr))
 
-# print(LargestElement_BF(arr))
-
-# Recursive Approach
 def LargestElement(arr):
     largest = arr[0]
     for i in range(0,len(arr)):
